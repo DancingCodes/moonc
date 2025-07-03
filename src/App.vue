@@ -1,30 +1,31 @@
 <template>
     <div class="h-100vh flex flex-col">
-        <div class="flex-1 flex items-center gap-60px px-160px box-border">
-            <div class="flex-1">
-                <div class="text-[100px] font-bold">Moonc.love</div>
-                <div class="text-[30px] mt-[100px]">
+        <div
+            class="flex-1 flex items-center gap-6% px-10% box-border max-sm:flex-col max-sm:px-6% max-sm:py-1% max-sm:gap-3%">
+            <div class="flex-1 max-sm:flex-none max-sm:w-100%">
+                <div class="text-[0.6rem] font-bold max-sm:text-[1rem] max-sm:text-center">Moonc.love</div>
+                <div class="text-[0.15rem]  mt-[0.6rem] max-sm:text-[0.36rem]">
                     Hi,there!
                     <br>
                     I'm DancingCodes,welcome to my homepage.
                 </div>
             </div>
 
-            <div class="flex-1 flex flex-col gap-120px">
+            <div class="flex-1 flex flex-col gap-0.5rem max-sm:w-100% max-sm:flex-none">
 
-                <div class="flex gap-20px justify-between h-200px">
+                <div class="flex gap-0.2rem justify-between h-1rem max-sm:flex-col max-sm:h-auto">
                     <div
-                        class="flex-1 flex flex-col justify-between text-26px bg-[rgba(0,0,0,0.3)] backdrop-blur-6px rounded-6px p-20px box-border">
+                        class="flex-1 flex flex-col justify-between text-0.1rem bg-[rgba(0,0,0,0.3)] backdrop-blur-0.1rem rounded-0.06rem p-0.1rem box-border max-sm:text-[0.36rem] max-sm:p-0.3rem">
                         <div>人生如棋,落子无悔。</div>
                         <div class="text-right">-「 人间忽晚 」</div>
                     </div>
 
                     <div
-                        class="flex-1 flex flex-col items-center justify-between text-26px bg-[rgba(0,0,0,0.3)] backdrop-blur-6px rounded-6px p-20px box-border">
+                        class="flex-1 flex flex-col items-center justify-between text-0.1rem bg-[rgba(0,0,0,0.3)] backdrop-blur-0.1rem rounded-0.06rem p-0.1rem box-border max-sm:text-[0.36rem] max-sm:gap-0.1rem max-sm:p-0.3rem">
                         <div>
                             {{ dateTime.year }}年{{ dateTime.month }}月{{ dateTime.day }}日{{ dateTime.weekday }}
                         </div>
-                        <div class="text-36px">
+                        <div class="text-0.1rem max-sm:text-[0.6rem]">
                             {{ dateTime.hours }}:{{ dateTime.minutes }}:{{ dateTime.seconds }}
                         </div>
                         <div>
@@ -39,11 +40,9 @@
                     </div>
                 </div>
 
-
-
-                <div class="grid grid-cols-3 gap-20px">
+                <div class="grid grid-cols-3 gap-0.1rem max-sm:grid-cols-2 max-sm:gap-0.2rem">
                     <div v-for="i in relatedWebList" @click="openLink(i.url)"
-                        class="py-30px px-0 text-center border-1px border-solid border-#ccc rounded-6px text-18px">
+                        class="py-0.1rem px-0 text-center border-0.01rem border-solid border-#ccc rounded-0.06rem text-0.1rem cursor-pointer max-sm:text-[0.36rem]">
                         {{ i.name }}
                     </div>
                 </div>
@@ -51,7 +50,8 @@
             </div>
         </div>
 
-        <div class="flex justify-center items-center text-18px gap-6px py-12px px-0 bg-rgba(0,0,0,0.3)">
+        <div
+            class="flex justify-center items-center text-0.1rem gap-0.03rem py-0.06rem px-0 bg-[rgba(0,0,0,0.3)] max-sm:py-0.2rem max-sm:text-[0.24rem]">
             <span>Copyright</span>
             <span>©</span>
             <span>2021 - 2025</span>
