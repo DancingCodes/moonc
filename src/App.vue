@@ -25,7 +25,7 @@
                         <div>
                             {{ dateTime.year }}年{{ dateTime.month }}月{{ dateTime.day }}日{{ dateTime.weekday }}
                         </div>
-                        <div class="text-0.1rem max-sm:text-[0.6rem]">
+                        <div class="text-0.2rem max-sm:text-[0.6rem]">
                             {{ dateTime.hours }}:{{ dateTime.minutes }}:{{ dateTime.seconds }}
                         </div>
                         <div>
