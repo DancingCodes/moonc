@@ -81,6 +81,9 @@ const relatedWebList = [{
 }, {
     url: 'https://factory.moonc.love',
     name: '无极工厂',
+}, {
+    url: 'https://game.moonc.love',
+    name: '星闪',
 }]
 
 </script>
