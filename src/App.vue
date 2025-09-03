@@ -4,10 +4,8 @@
             class="flex-1 flex items-center gap-6% px-10% box-border max-sm:flex-col max-sm:px-6% max-sm:py-1% max-sm:gap-3%">
             <div class="flex-1 max-sm:flex-none max-sm:w-100%">
                 <div class="text-[0.6rem] font-bold max-sm:text-[1rem] max-sm:text-center">Moonc.love</div>
-                <div class="text-[0.15rem]  mt-[0.6rem] max-sm:text-[0.36rem]">
-                    Hi,there!
-                    <br>
-                    I'm DancingCodes,welcome to my homepage.
+                <div class="h-0.45rem text-[0.15rem] mt-[0.6rem] word-spacing-[0.01rem] max-sm:text-[0.36rem]  max-sm:h-1.2rem"
+                    v-typing="['Hi there 👋', 'I\'m DancingCodes. Welcome to my homepage!']">
                 </div>
             </div>
 
@@ -85,5 +83,4 @@ const relatedWebList = [{
     url: 'https://game.moonc.love',
     name: '星闪',
 }]
-
 </script>
