@@ -52,10 +52,10 @@
             class="flex justify-center items-center text-0.1rem gap-0.03rem py-0.06rem px-0 bg-[rgba(0,0,0,0.3)] max-sm:py-0.2rem max-sm:text-[0.24rem]">
             <span>Copyright</span>
             <span>©</span>
-            <span>2021 - 2025</span>
+            <span>2021 - 2026</span>
             <span>Made by DancingCodes</span>
             <span>&</span>
-            <a href="https://beian.miit.gov.cn/" target="_blank">鲁ICP备2024059990号</a>
+            <a href="https://beian.miit.gov.cn/" target="_blank">鲁ICP备2024059990号-1</a>
         </div>
     </div>
 </template>
