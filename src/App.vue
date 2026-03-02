@@ -73,5 +73,8 @@ const relatedWebList = [{
 }, {
     url: 'https://filehub.moonc.love',
     name: '图床',
+}, {
+    url: 'https://pic.moonc.love',
+    name: 'Pic',
 }]
 </script>
