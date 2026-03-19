@@ -76,5 +76,8 @@ const relatedWebList = [{
 }, {
     url: 'https://pic.moonc.love',
     name: 'Pic',
+}, {
+    url: 'https://music.moonc.love',
+    name: '音乐播放器',
 }]
 </script>
