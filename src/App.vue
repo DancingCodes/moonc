@@ -79,5 +79,10 @@ const relatedWebList = [{
 }, {
     url: 'https://music.moonc.love',
     name: '音乐播放器',
+}, {
+    url: 'https://sparklink.moonc.love/landing/index.html',
+    name: '星闪App',
 }]
+
+
 </script>
