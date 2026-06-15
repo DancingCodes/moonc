@@ -71,20 +71,11 @@ const relatedWebList = [{
     url: 'https://moonc.love',
     name: '主页',
 }, {
-    url: 'https://ragsystem.moonc.love',
-    name: 'RAG系统',
-}, {
     url: 'https://music.moonc.love',
     name: '音乐播放器',
 }, {
-    url: 'https://filehub.moonc.love',
-    name: '图床',
-}, {
-    url: 'https://sparklink.moonc.love/landing/index.html',
-    name: '星闪App',
-}, {
-    url: 'https://pic.moonc.love',
-    name: 'Pic',
+    url: 'https://files.moonc.love',
+    name: '文件存储',
 }]
 
 
