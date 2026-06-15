@@ -68,9 +68,6 @@ const { dateTime } = useDateTime()
 const { weatherInfo } = useWeatherInfo()
 
 const relatedWebList = [{
-    url: 'https://moonc.love',
-    name: '主页',
-}, {
     url: 'https://music.moonc.love',
     name: '音乐播放器',
 }, {
