@@ -73,6 +73,9 @@ const relatedWebList = [{
 }, {
     url: 'https://files.moonc.love',
     name: '文件存储',
+}, {
+    url: 'https://roomweb.moonc.love/',
+    name: '星闪App',
 }]
 
 
