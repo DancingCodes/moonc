@@ -76,6 +76,9 @@ const relatedWebList = [{
 }, {
     url: 'https://roomweb.moonc.love/',
     name: '星闪App',
+}, {
+    url: 'https://ioscert.moonc.love/',
+    name: 'iOS Cert Generator',
 }]
 
 
