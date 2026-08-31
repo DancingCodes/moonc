@@ -67,19 +67,19 @@ import { openLink } from './utils/openLink';
 const { dateTime } = useDateTime()
 const { weatherInfo } = useWeatherInfo()
 
-const relatedWebList = [{
-    url: 'https://music.moonc.love',
-    name: '音乐播放器',
-}, {
-    url: 'https://files.moonc.love',
-    name: '文件存储',
-}, {
-    url: 'https://roomweb.moonc.love/',
-    name: '星闪App',
-}, {
-    url: 'https://ioscert.moonc.love/',
-    name: 'iOS Cert Generator',
-}]
-
+const relatedWebList = []
+// {
+//     url: 'https://music.moonc.love',
+//     name: '音乐播放器',
+// }, {
+//     url: 'https://files.moonc.love',
+//     name: '文件存储',
+// }, {
+//     url: 'https://roomweb.moonc.love/',
+//     name: '星闪App',
+// }, {
+//     url: 'https://ioscert.moonc.love/',
+//     name: 'iOS Cert Generator',
+// }
 
 </script>
