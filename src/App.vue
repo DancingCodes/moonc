@@ -67,7 +67,7 @@ import { openLink } from './utils/openLink';
 const { dateTime } = useDateTime()
 const { weatherInfo } = useWeatherInfo()
 
-const relatedWebList = []
+const relatedWebList = ref<any>([])
 // {
 //     url: 'https://music.moonc.love',
 //     name: '音乐播放器',
