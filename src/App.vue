@@ -55,7 +55,7 @@
             <span>2021 - 2026</span>
             <span>Made by DancingCodes</span>
             <span>&</span>
-            <a href="https://beian.miit.gov.cn/" target="_blank">鲁ICP备2024059990号-1</a>
+            <a href="https://beian.miit.gov.cn/" target="_blank">鲁ICP备2024059990号-3</a>
         </div>
     </div>
 </template>
