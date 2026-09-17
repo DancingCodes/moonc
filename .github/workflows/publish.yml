@@ -40,7 +40,7 @@ jobs:
           username: ${{ secrets.REMOTE_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: "dist.tar.gz"
-          target: "/opt/moonc/frontend"
+          target: "/opt/dancingcodes/frontend"
 
       - name: 远程部署与版本留存
         uses: appleboy/ssh-action@v1.0.3
@@ -49,7 +49,7 @@ jobs:
           username: ${{ secrets.REMOTE_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /opt/moonc/frontend
+            cd /opt/dancingcodes/frontend
             
             mkdir -p backups
             
