@@ -68,16 +68,16 @@ const { dateTime } = useDateTime()
 const { weatherInfo } = useWeatherInfo()
 
 const relatedWebList = ref<any>([{
-    url: 'https://music.dancingcodes.love',
+    url: 'https://music.dancingcodes.cn',
     name: '音乐播放器',
 }, {
-    url: 'https://files.dancingcodes.love',
+    url: 'https://files.dancingcodes.cn',
     name: '文件存储',
 }, {
-    url: 'https://roomweb.dancingcodes.love/',
+    url: 'https://roomweb.dancingcodes.cn/',
     name: '星闪App',
 }, {
-    url: 'https://ioscert.dancingcodes.love/',
+    url: 'https://ioscert.dancingcodes.cn/',
     name: 'iOS Cert Generator',
 }])
 </script>
