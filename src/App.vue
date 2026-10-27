@@ -74,10 +74,10 @@ const relatedWebList = ref<any>([{
     url: 'https://files.dancingcodes.cn',
     name: '文件存储',
 }, {
-    url: 'https://roomweb.dancingcodes.cn/',
+    url: 'https://roomweb.dancingcodes.cn',
     name: '星闪App',
 }, {
-    url: 'https://ioscert.dancingcodes.cn/',
+    url: 'https://ioscert.dancingcodes.cn',
     name: 'iOS Cert Generator',
 }])
 </script>
